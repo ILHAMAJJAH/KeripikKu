@@ -540,3 +540,29 @@ header.sticky{
         gap: 0.1rem;
     }
 }
+@media (max-width: 440px){
+    .home{
+        height: 110vh;
+        gap: 0.1rem;
+    }
+}
+@media (max-width: 395px){
+    .contact-img{
+        gap: .5rem;
+    }
+    .contact-img img{
+        width: 100%;
+        max-width: 150px;
+        height: auto;
+    }
+}
+@media (max-width: 375px){
+    .contact-img{
+        gap: .5rem;
+    }
+    .contact-img img{
+        width: 100%;
+        max-width: 130px;
+        height: auto;
+    }
+}
